@@ -2,21 +2,21 @@
 
 class Driver {
   constructor(name) {
-    this.id = ++driverId;
-    this.name = name;
+    this.id = ++driverId
+    this.name = name
 
-    store.drivers.push(this);
+    store.drivers.push(this)
   }
 
   trips() {
     return store.trips.filter(trip => {
-      return trip.driverId == this.id;
-    });
+      return trip.driverId == this.id
+    })
   }
 
   passengers() {
     return this.trips().map(trip => {
-      return trip.passenger();
+      return trip.passenger()
     });
   }
 }
@@ -24,8 +24,10 @@ class Driver {
 
 class Passenger {
   
+      store.passengers.push(this)
 }
 
 class Trip {
   
+      store.trips.push(this)
 }
