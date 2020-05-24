@@ -40,10 +40,11 @@ trips() {
   })
 }
 
-drivers() {
-  return store.drivers.filter(driver => {
-    return driver.driverId()
-  })
+  drivers() {
+    return this.trips().map(trip => {
+      return trip.driver();
+    });
+  }
 }
 
 }
