@@ -27,7 +27,10 @@ class Driver {
 
 
 class Passenger {
-  
+  constructor(name) {
+    this.
+    
+  }
       store.passengers.push(this)
 }
 
