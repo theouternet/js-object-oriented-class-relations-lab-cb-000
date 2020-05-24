@@ -32,6 +32,9 @@ class Passenger {
     this.name
     
       store.passengers.push(this)
+  }
+
+
 }
 
 class Trip {
