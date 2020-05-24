@@ -56,6 +56,8 @@ class Trip {
     store.trips.push(this)
   }
   
-  drivers
+  driver() {
+    return this.driver()
+  }
   
 }
