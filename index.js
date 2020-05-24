@@ -31,7 +31,6 @@ class Passenger {
     this.id ++passengerId
     this.name
     
-  }
       store.passengers.push(this)
 }
 
