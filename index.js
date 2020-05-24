@@ -28,7 +28,8 @@ class Driver {
 
 class Passenger {
   constructor(name) {
-    this.
+    this.id ++passengerId
+    this.name
     
   }
       store.passengers.push(this)
